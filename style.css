@@ -1,0 +1,39 @@
+:root{
+    --white: #fff;
+    --blue: #7bcfeb;
+    --black: #000;
+}
+
+body{
+    margin: 0;
+    background-color: var(--blue);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: space-around;
+}
+
+.containerSection{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;   
+    justify-content: space-between;
+    margin-right: 23px;
+    margin-left: 2em;
+    border: 5px solid var(--white);
+    border-radius: 1%;
+}
+
+.containerSectionDos{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;   
+    justify-content: space-arounds;
+    margin-right: 2em;
+    color: var(--white);
+    border: 5px solid var(--black);
+}
