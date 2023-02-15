@@ -1,6 +1,6 @@
 :root{
     --white: #fff;
-    --aqua: #3BDB96;
+    --aqua: #5ddff0;
     --black: #000;
 }
 
@@ -14,6 +14,7 @@ body{
 
 .container{
     margin: 0 auto;
+    color: var(--white);
 }
 
 .container *{
@@ -64,4 +65,31 @@ body{
 .flex-outer > li > label > *,
 .flex-inner{
     flex: 1 0 220px;
+}
+
+.flex-outer > li > input,
+.flex-outer > li > textarea  {
+    box-sizing: border-box;
+    width: 600px;
+    height: 50px;
+    justify-content:center;
+    text-align: left;
+    padding-left: 10px;
+    
+}
+
+.flex-outer > li > textarea {
+    height: 100px;
+    padding-top: 10px;
+}
+
+.flex-outer li button {
+    background-color: var(--black); /* Green */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 700px;
 }
